@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-a",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.build.js",
+    "development": "webpack-dev-server --progress --config webpack.config.development.js",
+    "start": "npm run development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code5linger/Portfolio-A.git"
+  },
+  "author": "CodeSlinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code5linger/Portfolio-A/issues"
+  },
+  "homepage": "https://github.com/Code5linger/Portfolio-A#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
